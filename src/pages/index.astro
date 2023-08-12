@@ -34,12 +34,14 @@ import Card from "../components/Card.astro";
       </defs>
     </svg>
     <h1>
-      Welcome to <span class="text-gradient">Atomic Pixels</span>
+      <span class="text-gradient">Atomic Pixels</span>
     </h1>
     <p class="instructions">
-      To get started, open the directory <code>src/pages</code> in your project.<br
-      />
-      <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      To get started, open the directory <code
+        >src/pages</code
+      > in your project.<br />
+      <strong>Code Challenge:</strong> Tweak the "Welcome to
+      Astro" message above.
     </p>
     <ul role="list" class="link-card-grid">
       <Card
@@ -121,7 +123,10 @@ import Card from "../components/Card.astro";
   }
   .link-card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(24ch, 1fr)
+    );
     gap: 2rem;
     padding: 0;
   }
